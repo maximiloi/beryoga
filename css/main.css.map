@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CAAG;;ACFf,AAAA,QAAQ,CAAC;EACP,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,IAAI;CAAG",
+    "mappings": "ACAA,AAAA,QAAQ,CAAC;EACP,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,IAAI;CAAG",
     "sources": [
         "../sass/main.sass",
         "../sass/_grid.sass"
