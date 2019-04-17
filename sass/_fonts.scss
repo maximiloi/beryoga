@@ -1,0 +1,47 @@
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "FivoSansRegular";
+  src: url("/fonts/FivoSans-Regular.woff2") format("woff2"),
+  url("/fonts/FivoSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "FivoSansLight";
+  src: url("/fonts/FivoSans-Light.woff2") format("woff2"),
+  url("/fonts/FivoSans-Light.woff") format("woff");
+}
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "FivoSansBold";
+  src: url("/fonts/FivoSans-Bold.woff2") format("woff2"),
+    url("/fonts/FivoSans-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "FivoSansHeavy";
+  src: url("/fonts/FivoSans-Heavy.woff2") format("woff2"),
+    url("/fonts/FivoSans-Heavy.woff") format("woff");
+}
+
+@mixin regular {
+  font-family: "FivoSansRegular", sans-serif;
+}
+
+@mixin light {
+  font-family: "FivoSansLight", sans-serif;
+}
+
+@mixin bold {
+  font-family: "FivoSansBold", sans-serif;
+}
+
+@mixin heavy {
+  font-family: "FivoSansHeavy", sans-serif;
+}

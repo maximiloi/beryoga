@@ -1,0 +1,28 @@
+.header
+  background: url('/image/bg-header.png')
+  height: 1325px
+  &__wrapper
+    max-width: 1440px
+    margin: 0 auto
+    margin-bottom: 170px
+    padding-top: 80px
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__logo
+    +heavy 
+    font-size: 32px 
+    line-height: 48px 
+    color: $logo__color
+  &__login
+    width: 140px
+    height: 42px
+    border: none
+    border-radius: 21px
+    background-color: $logo__color
+    color: $white
+    &:hover 
+      background-color: transparent
+      color: $logo__color
+      width: 138px
+      border: 2px solid $logo__color

@@ -1,0 +1,19 @@
+.nav
+  &__list
+    list-style: none
+    margin: 0
+    padding: 0
+    width: 475px
+    display: flex
+    justify-content: space-between
+  &__link
+    color: $nav__text
+    text-decoration: none
+    opacity: .5
+    line-height: 36px
+    &:hover
+      opacity: 1
+    &--active
+      +bold
+      color: $logo__color
+      opacity: 1
