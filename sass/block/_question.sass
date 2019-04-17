@@ -1,0 +1,38 @@
+.question
+  display: flex
+  justify-content: center
+  margin: 0 auto
+  margin-bottom: 270px
+  padding: 0
+  padding-top: 250px
+  max-width: 1920px
+  background: url('/image/branch.png') left bottom no-repeat, url('/image/cloud.png') right 130px no-repeat
+  &__wrapper
+    width: 550px
+  &__title
+    margin: 0
+    margin-top: 50px
+    margin-bottom: 90px
+    padding: 0
+    +bold
+    font-size: 50px
+    line-height: 60px
+    color: $title__color
+  &__list
+    margin: 0 
+    padding: 0
+    padding-left: 70px
+    list-style: url("/image/icon_check.png")
+  &__item
+    &-title
+      margin: 0
+      padding: 0
+      +bold
+      font-size: 24px
+      line-height: 40px
+      opacity: .75
+    &-text
+      margin: 0
+      margin-bottom: 50px
+      padding: 0
+      opacity: .65
