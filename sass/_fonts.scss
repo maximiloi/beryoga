@@ -30,6 +30,14 @@
     url("/fonts/FivoSans-Heavy.woff") format("woff");
 }
 
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "FivoSansOblique";
+  src: url("/fonts/FivoSans-Oblique.woff2") format("woff2"),
+    url("/fonts/FivoSans-Oblique.woff") format("woff");
+}
+
 @mixin regular {
   font-family: "FivoSansRegular", sans-serif;
 }
@@ -45,3 +53,9 @@
 @mixin heavy {
   font-family: "FivoSansHeavy", sans-serif;
 }
+
+@mixin oblique {
+  font-family: "FivoSansOblique", sans-serif;
+}
+
+

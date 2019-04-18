@@ -26,9 +26,17 @@
   src: url("/fonts/FivoSans-Heavy.woff2") format("woff2"), url("/fonts/FivoSans-Heavy.woff") format("woff");
 }
 
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "FivoSansOblique";
+  src: url("/fonts/FivoSans-Oblique.woff2") format("woff2"), url("/fonts/FivoSans-Oblique.woff") format("woff");
+}
+
 body {
   font-family: "FivoSansLight", sans-serif;
   background-color: #ffffff;
+  color: #000000;
   font-size: 18px;
   line-height: 40px;
 }
@@ -241,6 +249,7 @@ body {
   padding: 0;
   font-size: 24px;
   line-height: 60px;
+  color: #3b3838;
 }
 
 .advantage__item-text {
@@ -301,5 +310,78 @@ body {
   margin-bottom: 50px;
   padding: 0;
   opacity: .65;
+}
+
+.news {
+  max-width: 1920px;
+  background: url("/image/cloud_news_left.png") left 50% no-repeat, url("/image/branch_right.png") right 55% no-repeat, url("/image/cloud_news_right.png") right 45% no-repeat;
+}
+
+.news__content {
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news__content:first-child {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.news__title {
+  margin: 0 100px 70px 100px;
+  padding: 0;
+  padding-top: 70px;
+  font-family: "FivoSansBold", sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  color: #3b3838;
+}
+
+.news__title span {
+  font-family: "FivoSansOblique", sans-serif;
+  display: block;
+  font-size: 20px;
+  line-height: 40px;
+  color: #000000;
+  opacity: .5;
+}
+
+.news__title span::after {
+  content: " ______";
+}
+
+.news__title--big {
+  width: 693px;
+}
+
+.news__text {
+  margin: 0;
+  padding: 0;
+  padding-left: 150px;
+  width: 380px;
+  opacity: .65;
+}
+
+.news__text--big {
+  width: 555px;
+}
+
+.news__link {
+  margin: 0;
+  padding: 0;
+  padding-left: 150px;
+  color: #3cbef1;
+  text-decoration: none;
+  font-family: "FivoSansOblique", sans-serif;
+}
+
+.news__link:hover {
+  color: #1c2056;
 }
 /*# sourceMappingURL=main.css.map */
