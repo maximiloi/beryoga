@@ -364,8 +364,11 @@ body {
   margin: 0;
   padding: 0;
   padding-left: 150px;
-  width: 380px;
   opacity: .65;
+}
+
+.news__text--small {
+  width: 380px;
 }
 
 .news__text--big {
@@ -381,7 +384,159 @@ body {
   font-family: "FivoSansOblique", sans-serif;
 }
 
+.news__link::after {
+  content: ' >';
+}
+
 .news__link:hover {
   color: #1c2056;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 470px;
+  height: 690px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.price__card--main {
+  width: 500px;
+  height: 770px;
+}
+
+.price__card-title {
+  margin: 0;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  padding: 0;
+  font-family: "FivoSansBold", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+  color: #3b3838;
+  opacity: .8;
+}
+
+.price__card-title--main {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #ff6a6d;
+}
+
+.price__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.price__list--first {
+  padding-top: 70px;
+}
+
+.price__item {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.price__check {
+  margin: 0;
+  padding: 0;
+  padding-left: 60px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.price__text {
+  margin: 0;
+  padding: 0;
+  line-height: 38px;
+  color: #3b3838;
+  opacity: .75;
+}
+
+.price__value {
+  display: inline;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 30px;
+  text-align: center;
+  font-family: "FivoSansRegular", sans-serif;
+  font-size: 150px;
+  line-height: 150px;
+  color: #3b3838;
+  opacity: .75;
+}
+
+.price__value span:nth-child(1) {
+  position: absolute;
+  top: 35px;
+  left: -40px;
+  font-size: 48px;
+  line-height: 30px;
+}
+
+.price__value span:nth-child(2) {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.price__payment-time {
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+  text-align: center;
+  font-family: "FivoSansOblique", sans-serif;
+  line-height: 30px;
+  color: #3b3838;
+  opacity: .75;
+}
+
+.price__button-member {
+  display: inline;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 0;
+  width: 220px;
+  height: 75px;
+  line-height: 75px;
+  border-radius: 38px;
+  background: linear-gradient(51deg, #5fcef5 0%, #83e3fb 100%);
+  -webkit-box-shadow: -14px 16px 20px 0px rgba(95, 206, 244, 0.29);
+          box-shadow: -14px 16px 20px 0px rgba(95, 206, 244, 0.29);
+  font-family: "FivoSansRegular", sans-serif;
+  color: #ffffff;
+}
+
+.price__button-member--main {
+  background: #ff6a6d;
+  -webkit-box-shadow: -14px 16px 20px 0px rgba(255, 106, 109, 0.29);
+          box-shadow: -14px 16px 20px 0px rgba(255, 106, 109, 0.29);
 }
 /*# sourceMappingURL=main.css.map */

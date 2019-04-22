@@ -31,8 +31,9 @@
     margin: 0
     padding: 0
     padding-left: 150px
-    width: 380px
     opacity: .65
+    &--small
+      width: 380px
     &--big
       width: 555px
   &__link
@@ -42,5 +43,7 @@
     color: $more__color
     text-decoration: none
     +oblique
+    &::after
+      content: ' >'
     &:hover
       color: $nav__text
