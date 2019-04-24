@@ -394,6 +394,7 @@ body {
 }
 
 .price {
+  margin-bottom: 340px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -403,7 +404,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: url("/image/footer_eclipse.png") 50% bottom no-repeat, url("/image/footer__card.png") 50% top no-repeat;
 }
 
 .price__card {
@@ -556,5 +556,65 @@ body {
   background: #ff6a6d;
   -webkit-box-shadow: -14px 16px 20px 0px rgba(255, 106, 109, 0.29);
           box-shadow: -14px 16px 20px 0px rgba(255, 106, 109, 0.29);
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  background: url("/image/footer_card.png") 50% top no-repeat, url("/image/footer_eclipse.png") 50% bottom no-repeat;
+}
+
+.footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+}
+
+.footer__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__item {
+  margin: 0;
+  padding: 0;
+  width: 265px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #3b3838;
+  opacity: .75;
+}
+
+.footer__item a {
+  text-decoration: none;
+  color: #3b3838;
+  opacity: .75;
+}
+
+.footer__title {
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  font-family: "FivoSansBold", sans-serif;
+  color: #3b3838;
+  opacity: .75;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.footer__copyright {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "FivoSansRegular", sans-serif;
+  line-height: 36px;
+  color: #3b3838;
+  opacity: .7;
 }
 /*# sourceMappingURL=main.css.map */
