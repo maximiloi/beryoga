@@ -553,10 +553,19 @@ body {
   color: #ffffff;
 }
 
+.price__button-member:hover {
+  color: rgba(28, 32, 86, 0.7);
+  background: linear-gradient(51deg, #83e3fb 0%, #5fcef5 100%);
+}
+
 .price__button-member--main {
   background: #ff6a6d;
   -webkit-box-shadow: -14px 16px 20px 0px rgba(255, 106, 109, 0.29);
           box-shadow: -14px 16px 20px 0px rgba(255, 106, 109, 0.29);
+}
+
+.price__button-member--main:hover {
+  background: #ff6a6d;
 }
 
 .footer {
@@ -605,6 +614,10 @@ body {
   text-decoration: none;
   color: #3b3838;
   opacity: .75;
+}
+
+.footer__item a:hover {
+  color: #1c2056;
 }
 
 .footer__title {
