@@ -610,6 +610,10 @@ body {
   opacity: .75;
 }
 
+.footer__item--bottom {
+  margin-bottom: 30px;
+}
+
 .footer__item a {
   text-decoration: none;
   color: #3b3838;
