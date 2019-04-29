@@ -394,7 +394,7 @@ body {
 }
 
 .price {
-  margin-bottom: 340px;
+  margin-bottom: 220px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -437,8 +437,9 @@ body {
 }
 
 .price__card:nth-child(2) {
-  -webkit-box-shadow: 24px 28px 130px 0px rgba(255, 106, 109, 0.19);
-          box-shadow: 24px 28px 130px 0px rgba(255, 106, 109, 0.19);
+  z-index: 2;
+  -webkit-box-shadow: 42px 1px 30px 0px rgba(255, 106, 109, 0.15), -42px 1px 30px 0px rgba(255, 106, 109, 0.15);
+          box-shadow: 42px 1px 30px 0px rgba(255, 106, 109, 0.15), -42px 1px 30px 0px rgba(255, 106, 109, 0.15);
 }
 
 .price__card-title {
@@ -561,7 +562,16 @@ body {
 .footer {
   margin: 0;
   padding: 0;
+  padding-top: 60px;
   background: url("/image/footer_card.png") 50% top no-repeat, url("/image/footer_eclipse.png") 50% bottom no-repeat;
+}
+
+.footer__content--wrapper {
+  width: 1400px;
+  margin: 0 auto;
+  border-top-left-radius: 176px;
+  border-top-right-radius: 176px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .footer__wrapper {
@@ -571,6 +581,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 100px;
   margin-bottom: 100px;
 }
 
