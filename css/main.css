@@ -166,6 +166,7 @@ body {
           align-items: center;
   border-radius: 40px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .intro__buttons--pink {
@@ -551,6 +552,7 @@ body {
           box-shadow: -14px 16px 20px 0px rgba(95, 206, 244, 0.29);
   font-family: "FivoSansRegular", sans-serif;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .price__button-member:hover {
